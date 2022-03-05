@@ -2,7 +2,7 @@
 
 ## Project overview
 
-The pruporse of this project is to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for an investment. To acommplish this, the data was processed to fit the machine learning models. Since there was no known output, this project used unsupervised learning. Also, to group the cryptocurrencies, a clustering algorithm was used. Finally the results were shown with data visualizations to share findings.
+The purpose of this project is to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for an investment. To accomplish this, the data was processed to fit the machine learning models. Since there was no known output, this project used unsupervised learning. Also, to group the cryptocurrencies, a clustering algorithm was used. Finally, the results were shown with data visualizations to share findings.
 
 ## Resources
 
@@ -14,7 +14,7 @@ The pruporse of this project is to create a report that includes what cryptocurr
 
 ### Preprocessing the Data for PCA
 
-Data was not ideal and needed to process it to fit the machine learning models. The data was processed by only keeping the cryptocurrencies that are being traded, droping a few columns, removing rows that had at least one null value and keeping only rows where coins have been mined.
+Data was not ideal and needed to process it to fit the machine learning models. The data was processed by only keeping the cryptocurrencies that are being traded, dropping a few columns, removing rows that had at least one null value and keeping only rows where coins have been mined.
 
 ![image](https://user-images.githubusercontent.com/91766276/156902253-f6988d1b-6abd-4f7b-8528-58a2db180cc3.png)
 
