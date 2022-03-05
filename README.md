@@ -12,6 +12,19 @@ The pruporse of this project is to create a report that includes what cryptocurr
 
 ## Results
 
+### Preprocessing the Data for PCA
+
+Data was not ideal and needed to process it to fit the machine learning models. The data was processed by only keeping the cryptocurrencies that are being traded, droping a few columns, removing rows that had at least one null value and keeping only rows where coins have been mined.
+
+![image](https://user-images.githubusercontent.com/91766276/156902253-f6988d1b-6abd-4f7b-8528-58a2db180cc3.png)
+
+![image](https://user-images.githubusercontent.com/91766276/156902359-480f7748-b88a-4521-9810-4f69caa8ee1a.png)
+
+Used the `get_dummies()` method to create variables for the two text features, Algorithm and ProofType, and stored the resulting data in a new DataFrame named `X`.
+
+![image](https://user-images.githubusercontent.com/91766276/156902430-b02a44fa-7c1f-4dae-a6d1-96ab42d4f693.png)
+
+
 ![image](https://user-images.githubusercontent.com/91766276/156900059-96198cfd-8fbb-4b70-99c2-cb49be8f4f54.png)
 
 
