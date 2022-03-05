@@ -24,16 +24,29 @@ Used the `get_dummies()` method to create variables for the two text features, A
 
 ![image](https://user-images.githubusercontent.com/91766276/156902430-b02a44fa-7c1f-4dae-a6d1-96ab42d4f693.png)
 
+Applied `PCA` to reduce the dimensions to three principal components and created a new `DataFramme` with those three components and keeping the same index.
+
+![image](https://user-images.githubusercontent.com/91766276/156902518-064849bd-b7a0-4c85-a8e7-f0cc69e9ed53.png)
+
+Created an elbow curve using `hvPlot` to find the best value for K from the `df_X_pca` DataFrame created above.
 
 ![image](https://user-images.githubusercontent.com/91766276/156900059-96198cfd-8fbb-4b70-99c2-cb49be8f4f54.png)
 
+Ran the `K-means algorithm` to predict the K clusters for the cryptocurrencies’ data.
+
+![image](https://user-images.githubusercontent.com/91766276/156902636-2cfc1bcf-6b4d-4514-b95b-919fd2237b15.png)
+
+Created a 3D scatter plot using the `Plotly Express scatter_3d()` function to plot the three clusters.
 
 ![image](https://user-images.githubusercontent.com/91766276/156900074-b8ba9661-b929-4fd6-9656-0a518430cc09.png)
 
-
+Created a table with tradable cryptocurrencies using the `hvplot.table()` function.
 
 ![image](https://user-images.githubusercontent.com/91766276/156900086-5fb12606-a879-4896-8472-35302906bf7c.png)
 
+Used the `MinMaxScaler().fit_transform` method to scale the `TotalCoinSupply` and `TotalCoinsMined` columns.
+
+![image](https://user-images.githubusercontent.com/91766276/156902728-d403e83f-acc2-4c99-b64b-5a17db8a8f93.png)
 
 
 
