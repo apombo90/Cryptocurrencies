@@ -1,5 +1,17 @@
 # Cryptocurrencies
 
+## Project overview
+
+The pruporse of this project is to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for an investment. To acommplish this, the data was processed to fit the machine learning models. Since there was no known output, this project used unsupervised learning. Also, to group the cryptocurrencies, a clustering algorithm was used. Finally the results were shown with data visualizations to share findings.
+
+## Resources
+
+- Data Source: `crypto_data.csv` (https://min-api.cryptocompare.com/data/all/coinlist)
+- Data Tools: `Pandas`, `hvPlot`, `scikit-learn`
+- Software: `Jupyter Notebook`
+
+## Results
+
 ![image](https://user-images.githubusercontent.com/91766276/156900059-96198cfd-8fbb-4b70-99c2-cb49be8f4f54.png)
 
 
