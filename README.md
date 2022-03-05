@@ -48,11 +48,6 @@ Used the `MinMaxScaler().fit_transform` method to scale the `TotalCoinSupply` an
 
 ![image](https://user-images.githubusercontent.com/91766276/156902728-d403e83f-acc2-4c99-b64b-5a17db8a8f93.png)
 
-
-
-![image](https://user-images.githubusercontent.com/91766276/156900110-3f934c9b-f106-49f1-b5ba-06d018b55802.png)
-
-
-
+Created an `hvplot scatter plot` with x="TotalCoinsMined", y="TotalCoinSupply" to visualize each group.
 
 ![image](https://user-images.githubusercontent.com/91766276/156900121-50068575-22ec-474e-a3f2-ccf60356db41.png)
